@@ -1,4 +1,4 @@
-import React from "react";
+import './ChatBotApp.css'
 
 const ChatBotApp = () => {
   return (
