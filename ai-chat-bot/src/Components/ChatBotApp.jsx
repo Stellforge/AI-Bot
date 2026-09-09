@@ -39,8 +39,17 @@ const ChatBotApp = () => {
             I'm here and ready to assist you? How can i help you today ?
             <span>12:59:52</span>
           </div>
-          <div className="typing">Tytping...</div>
+          <div className="typing">Typing...</div>
         </div>
+        <form className="msg-form">
+          <i className="fa-solid fa-face smile emoji"></i>
+          <input
+            type="text"
+            className="msg-input"
+            placeholder="Type a message..."
+          />
+          <i className="fa-solid fa-paper-plane"></i>
+        </form>
       </div>
     </div>
   );
