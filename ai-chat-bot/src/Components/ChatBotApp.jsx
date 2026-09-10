@@ -8,11 +8,7 @@ const ChatBotApp = () => {
           <h2>Chat List</h2>
           <i className="bx bx-edit-alt new-chat"></i>
         </div>
-        <div className="chat-list-item">
-          <h4>Chat 20/07/2024 12:59:42 PM</h4>
-          <i className="bx bx-x circle"></i>
-        </div>
-        <div className="chat-list-item">
+        <div className="chat-list-item active">
           <h4>Chat 20/07/2024 12:59:42 PM</h4>
           <i className="bx bx-x circle"></i>
         </div>
@@ -42,7 +38,7 @@ const ChatBotApp = () => {
           <div className="typing">Typing...</div>
         </div>
         <form className="msg-form">
-          <i className="fa-solid fa-face smile emoji"></i>
+          <i className="fa-solid fa-face-smile emoji"></i>
           <input
             type="text"
             className="msg-input"
